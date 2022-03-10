@@ -1,0 +1,20 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "shaharafat", email = "contact.shaharafat@yahoo.com"},
+]
+license-expression = "MIT"
+dependencies = []
+
+[project.urls]
+Homepage = ""
+[tool.pdm]
+
+[build-system]
+requires = ["pdm-pep517>=0.12.0"]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm.scripts]
+test = "python -m unittest"
